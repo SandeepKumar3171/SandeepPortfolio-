@@ -16,14 +16,14 @@ const Home = () => {
           Node.js, Express.js, MongoDB, and frontend using
           React.js.
         </p>
-        <div className='flex flex-row gap-5 justify-center md:justify-start md:pl-5 items-center border text-2xl'>
-          <p><FaLinkedin/></p>
-          <p><FaGithub/></p>
-          <p><BiLogoGmail/></p>
+        <div className='flex flex-row gap-5 justify-center md:justify-start md:pl-5 items-center p-2 text-2xl'>
+          <a target='_blank' href='https://www.linkedin.com/in/sandeep-kashyap-336a69239/' className='hover:text-blue-600 transform skew-y-12 animate-spin hover:animate-bounce' ><FaLinkedin/></a>
+          <a target='_blank' href='https://github.com/SandeepKumar3171'  className='hover:text-blue-600 transform skew-y-12 animate-spin hover:animate-bounce'><FaGithub/></a>
+          <a href="mailto:/sandeepidkk@gmail.com" target="_blank"  className='hover:text-blue-600 transform skew-y-12 animate-spin hover:animate-bounce text-red-500'><BiLogoGmail/></a>
         </div>
         </div>
         <div className='md:w-1/2 w-full p-5'>
-          <p className='rounded-full bg-red-400 border-2 border-blue-500 shadow-xl shadow-red-600'><img className='rounded-full p-2 ' src={SandeepImg} alt="" /></p>
+          <p className='rounded-full bg-red-400 border-2 border-blue-500 shadow-xl shadow-red-600 '><img className='rounded-full p-2 ' src={SandeepImg} alt="" /></p>
         </div>
       </div>
     </>
