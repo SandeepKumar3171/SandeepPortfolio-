@@ -11,16 +11,16 @@ const About = () => {
     <div>
       <p>About page</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut mollitia sint veritatis facilis maxime modi ratione quos cum at. Aspernatur impedit beatae fuga ut culpa, debitis inventore quis dolore repellendus!</p>
-      <p>SKILLS</p>
-      <div className='grid md:grid-cols-4 grid-cols-2 justify-evenly gap-5 p-5 border'>
-        <p className='text-8xl'><AiFillHtml5/></p>
-        <p className='text-8xl'><FaCss3Alt/></p>
-        <p className='text-8xl'><RiJavascriptFill/></p>
-        <p className='text-8xl'><SiTailwindcss/></p>
-        <p className='text-8xl'><FaReact/></p>
-        <p className='text-8xl'><FaNodeJs/></p>
-        <p className='text-8xl'><SiMongodb/></p>
-        <p className='text-8xl'><TbBrandVscode/></p>
+      <p className='text-2xl font-semibold text-center items-center m-5 text-red-600'>SKILLS</p>
+      <div className='grid md:grid-cols-4 grid-cols-2 justify-evenly gap-5 p-5 border-t m-5 pl-20'>
+        <p className='text-8xl text-red-500'><AiFillHtml5/></p>
+        <p className='text-8xl text-red-500'><FaCss3Alt/></p>
+        <p className='text-8xl text-green-500'><RiJavascriptFill/></p>
+        <p className='text-8xl text-blue-500'><SiTailwindcss/></p>
+        <p className='text-8xl text-blue-500'><FaReact/></p>
+        <p className='text-8xl text-green-500'><FaNodeJs/></p>
+        <p className='text-8xl  text-green-500'><SiMongodb/></p>
+        <p className='text-8xl text-blue-500'><TbBrandVscode/></p>
       </div>
     </div>
   )
