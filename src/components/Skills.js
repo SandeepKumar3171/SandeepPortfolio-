@@ -6,7 +6,7 @@ import {SiTailwindcss,SiMongodb } from 'react-icons/si';
 import {TbBrandVscode } from 'react-icons/tb';
 
 
-const About = () => {
+const Skills = () => {
   return (
     <div>
       <p>About page</p>
@@ -26,4 +26,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Skills
