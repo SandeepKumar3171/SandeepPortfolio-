@@ -7,7 +7,7 @@ import {AiOutlineMenu } from 'react-icons/ai';
 const Navbar = () => {
   const clickHandler=()=>{
     console.log("Hello")
-
+   
 
   }
 
